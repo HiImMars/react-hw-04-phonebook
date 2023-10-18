@@ -1,0 +1,59 @@
+@import-normalize; /* bring in normalize.css styles */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  border: none;
+}
+
+.container {
+  width: 700px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  padding: 10px;
+  border: 1px solid blueviolet;
+  box-shadow: rgba(94, 14, 163, 0.4) -5px 5px, rgba(94, 14, 163, 0.3) -10px 10px,
+    rgba(94, 14, 163, 0.2) -15px 15px, rgba(94, 14, 163, 0.1) -20px 20px,
+    rgba(94, 14, 163, 0.05) -25px 25px;
+}
+
+.title {
+  margin-bottom: 20px;
+}

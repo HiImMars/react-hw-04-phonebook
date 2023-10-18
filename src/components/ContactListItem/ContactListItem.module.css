@@ -1,0 +1,18 @@
+.item {
+  font-size: 20px;
+}
+
+.deletebtn {
+  border-radius: 6px;
+  width: 120px;
+  font-size: 18px;
+  color: white;
+  background-color: rgb(90, 90, 90);
+  transition: color 300ms ease-out, background-color 300ms ease-out;
+}
+
+.deletebtn:hover,
+.deletebtn:focus {
+  color: rgb(90, 90, 90);
+  background-color: beige;
+}
